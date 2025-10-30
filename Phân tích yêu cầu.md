@@ -36,8 +36,8 @@ Trong bối cảnh thực tế, các doanh nghiệp thường có nhiều chi nh
 ### 2.2 Phạm vi
 
 * Mô phỏng trong **Cisco Packet Tracer**.
-* Giới hạn 2 router chính (mỗi chi nhánh), một router Internet giả lập.
-* Mỗi chi nhánh có LAN gồm router, switch và 1–2 PC.
+* Cần tối thiểu 3 router chính (mỗi chi nhánh), một router Internet giả lập.
+* Mỗi chi nhánh có LAN gồm router, switch và 4–10 PC chia ra các phòng ban: Nhân sự, Kế Toán, IT, Giám đốc
 
 ---
 
