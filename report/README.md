@@ -5,24 +5,35 @@ Thư mục này sẽ chứa các file
 - demo (nếu có)
 
 ## Quy tắc
-Mỗi file ảnh output cần kèm 1 file .txt về lệnh cấu hình
+Mỗi phần lệnh đã cấu hình xong phải có ảnh output đi kèm
 
-Đặt tên file ảnh theo cú pháp
-<Cấu hình>_<Tên>_<Ngày upload>.png/jpg
+Đặt tên file doc theo cú pháp 
+<Cấu hình>_<Tên>_<Ngày upload>.doc (FILE WORD)
 
-Đặt tên file txt theo cú pháp 
-<Cấu hình>_<Tên>_<Ngày upload>.txt
+**TÊN FILE DOC PHẢI TRÙNG VỚI FILE .PKA TƯƠNG ỨNG**
 
-
-Ví dụ cấu hình xong, đã chạy được thì phải chụp màn hình lại ảnh đã chạy được phần đó (bao gồm file txt chứa lệnh cấu hình, hình ảnh chứa lệnh cấu hình và output)
+VD: File IPConfig_NguyenHoangSon_3110.pka thì ở folder report này cũng phải có 1 file IPConfig_NguyenHoangSon_3110.doc
 
 
-**Lưu ý**: Vì trong 1 lần cấu hình, có thể có nhiều lệnh cấu hình và output đầu ra của lệnh đó, nên cần ghi rõ tên file hình ảnh:
+Ví dụ cấu hình xong, đã chạy được thì phải ghi ra lệnh +chụp màn hình lại ảnh đã chạy được phần đó 
+
+
+**Lưu ý**: Vì trong 1 lần cấu hình, có thể có nhiều lệnh cấu hình và output đầu ra của lệnh đó, nên cần ghi rõ cấu hình phần nào:
 
 VD: 
 
-- CheckConfigVPN_TranQuangThai_2410.png _(Sẽ đi kèm với file CheckConfigVPN_TranQuangThai_2410.txt ngay bên dưới)_
-- ConfigVPN_TranQuangThai_2410.png _(Sẽ đi kèm với file ConfigVPN_TranQuangThai_2410.txt ngay bên dưới)_
-- AddDHCP_PhanDucTai_2410.png _(Sẽ đi kèm với file AddDHCP_PhanDucTai_2410.txt ngay bên dưới)_
+1.	Router HCM-EDGE
 
-Tương tự như môn Quản trị mạng, mỗi lệnh cấu hình sẽ có hình ảnh đi kèm minh chứng, vì vậy cần ghi rõ lệnh kèm hình để viết báo cáo
+```bash
+enable
+configure terminal
+hostname HCM-EDGE
+! Cổng kết nối tới ISP
+interface GigabitEthernet0/0/1
+ description Link_to_ISP
+ ip address 203.0.113.1 255.255.255.252
+ no shutdown
+```
+
+![alt text](image.png)
+

@@ -88,8 +88,13 @@ Quy tắc:
 - Luôn `git pull` trước khi làm
 - Chỉ một người làm tại một thời điểm 
 - Đặt tên file theo đúng cú pháp   
-- Khi cấu hình xong, **LUÔN NHỚ GHI LẠI LỆNH CẤU HÌNH VÀO THƯ MỤC config log VÀ HÌNH ẢNH CẤU HÌNH PHẦN ĐÓ THÀNH CÔNG ĐỂ SAU NÀY VIẾT BÁO CÁO CÓ HÌNH ẢNH VÀ LỆNH CẤU HÌNH**         
+- Trong quá trình làm: cấu hình - ghi lại lệnh + hình output
+- Sau khi xong hết: `show runnning config`, copy tất cả và dán vào thư mục config log
+- LUÔN NHỚ:
+1. **GHI LỆNH CẤU HÌNH KÈM HÌNH ẢNH VÀO FILE DOC VÀ ĐẶT VÀO THƯ MỤC report**         
+2. **GHI LẠI LỆNH CẤU HÌNH (SHOW RUN_TÊN_NGÀY) VÀO THƯ MỤC config log** 
 
+ĐỪNG QUÊN, ĐỪNG QUÊN, ĐỪNG QUÊN!!!
 ---
 
 
